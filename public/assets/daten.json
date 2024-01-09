@@ -1,0 +1,15 @@
+{
+    "person": [
+        { "id": 1, "name": "Göschel", "image": "/assets/img/joel.png", "height": "1.85" },
+        { "id": 2, "name": "Jank thoms hurschl", "image": "/assets/img/frick.png", "height": "1.15" },
+        { "id": 3, "name": "Thyrmian Eisenbarsch", "image": "/assets/img/daman.png", "height": "1.94" },
+        { "id": 4, "name": "Ian Abraham Aladin Alexander Frei", "image": "/assets/img/jan.png", "height": "1.85" },
+        { "id": 5, "name": "Bien der Arier", "image": "/assets/img/ben.png", "height": "1.84" },
+        { "id": 6, "name": "Meter", "image": "/assets/img/meter.png", "height": "2.00" },
+        { "id": 7, "name": "Eiffelturm des Vertrauens", "image": "/assets/img/eiffelturm.png", "height": "200" },
+        { "id": 8, "name": "Zentimeter", "image": "/assets/img/zentimeter.png", "height": "0.01" },
+        { "id": 9, "name": "iphone 14 pro max", "image": "/assets/img/iphone14.png", "height": "0.01607" },
+        { "id": 10, "name": "Lego Eiffelturm", "image": "/assets/img/legoEiffelturm.png", "height": "1.50" },
+        { "id": 11, "name": "Zwölfbar", "image": "/assets/img/zwölfbar.png", "height": "0.013" }
+      ]
+}

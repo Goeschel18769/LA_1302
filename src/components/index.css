@@ -1,0 +1,54 @@
+.rizzy{
+    height: 100px;
+    max-width: 180px;
+}
+
+#vergleichBox{
+    display:flex;
+    
+}
+#titel{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: Helvetica;
+}
+.button{
+    background-color: white;
+    font-family: helvetica;
+    height:30px;
+    width: 150px;
+}
+
+#linkeBox{
+    max-width: 200px;
+    border: 1px solid black;
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    font-family: Helvetica;
+    
+}
+
+#rechteBox{
+    max-width: 200px;
+    border: 1px solid black;
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    margin-left: 40px;
+    font-family: Helvetica;
+}
+#buttonBox{
+    margin-top: 15%;
+    margin-left: 4%;
+}
+
+#game{
+    
+    padding-left: 20%;
+}
+#footer{
+    margin-top: 20%;
+    font-family: Helvetica;
+}
