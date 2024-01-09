@@ -18,14 +18,22 @@
 
 Wir haben eine Higher-Lower WebApp, mit unseren eigenen Bildern/Ideen, mithilfe von REACT programmiert.
 
-Unser Spiel funktioniert so, dass dem Spieler zwei Bilder mit entsprechendem Text angezeigt werden, und dieser dann entscheiden muss welches "Objekt" grösser ist. Dabei ist das linke "Objekt" der Ausgangspunkt und das rechte "Objekt" ist entweder grösser oder kleiner. Der Spieler kann dies mithilfe der "Higher" und "Lower" Buttons eingeben. Falls er richtig liegt, bekommt +1 Scorepoint und das linke "Ausgangsobjekt" wird mit dem rechten "Objekt" ersetzt. 
+Unser Spiel funktioniert so, dass dem Spieler zwei Bilder mit entsprechendem Text angezeigt werden, und dieser dann entscheiden muss welches "Objekt" grösser ist. Dabei ist das linke "Objekt" der Ausgangspunkt und das rechte "Objekt" ist entweder grösser oder kleiner. Der Spieler kann dies mithilfe der "Higher" und "Lower" Buttons eingeben. Falls er richtig liegt, bekommt +1 Scorepoint und das linke "Ausgangsobjekt" wird mit dem rechten "Objekt" ersetzt. Bei einem falschen Versuch wird der Score zurückgesetzt.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |  Muss              |  Funktional    | Als ein User möchte ich, dass das Spiel fehlerfrei läuft, damit ich keinen Spielunterbruch habe. |
+| 2  |   Kann          |  Qualität    |  Als ein User möchte ich, dass der Score automatisch aktualisiert wird, damit ich sehe wie viele richtige Versuche ich hatte.            |
+| 3  |    Muss             | Qualität   |  Als ein User möchte ich, dass die "Objekte" Bilder haben, damit ich eine visuelle Referenz habe.   |
+| 4  |     Muss            |  Rand    |  Das Projekt ist in REACT mit HTML, CSS und JavaScript umgesetzt.     |
+| 5  |     Kann            |  Qualität    |  Als ein User möchte ich, dass mein Highscore gespeichert wird, damit ich diesen mit meinen Freunden vergleichen kann.           |
+| 6  |     Muss            |  Funktional    | Als ein User möchte ich, dass alle Buttons ihrer Beschriftung entsprechend funktionieren, damit ich das Spiel spielen kann.         |
+
+
+
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
