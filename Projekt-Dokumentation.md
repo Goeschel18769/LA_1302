@@ -26,55 +26,72 @@ Unser Spiel funktioniert so, dass dem Spieler zwei Bilder mit entsprechendem Tex
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |  Muss              |  Funktional    | Als ein User möchte ich, dass das Spiel fehlerfrei läuft, damit ich keinen Spielunterbruch habe. |
 | 2  |   Kann          |  Qualität    |  Als ein User möchte ich, dass der Score automatisch aktualisiert wird, damit ich sehe wie viele richtige Versuche ich hatte.            |
-| 3  |    Muss             | Qualität   |  Als ein User möchte ich, dass die "Objekte" Bilder haben, damit ich eine visuelle Referenz habe.   |
-| 4  |     Muss            |  Rand    |  Das Projekt ist in REACT mit HTML, CSS und JavaScript umgesetzt.     |
-| 5  |     Kann            |  Qualität    |  Als ein User möchte ich, dass mein Highscore gespeichert wird, damit ich diesen mit meinen Freunden vergleichen kann.           |
+| 3  |    Muss             | Qualität   |  Als ein User möchte ich, dass die "Objekte" Bilder haben, damit ich eine visuelle Refferenz habe.   |
+| 4  |     Muss            |  Rand    |  Das Projekt ist in REACT mit HTML, CSS, JavaScript und JSON umgesetzt.     |
+| 5  |     Kann            |  Qualität    |  Als ein User möchte ich, dass mein Highscore angezeigt wird, damit ich diesen mit meinen Freunden vergleichen kann.           |
 | 6  |     Muss            |  Funktional    | Als ein User möchte ich, dass alle Buttons ihrer Beschriftung entsprechend funktionieren, damit ich das Spiel spielen kann.         |
+| 7  |    Kann            |  Qualität   | Als ein User möchte ich, dass das Spiel visuell ansprechend gestaltet ist, damit ich mit voller Euphorie durchstarten (oder durchklicken;)) kann.       |
 
 
-
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+| 1.1  |  Das Spiel wurde gestartet/Die Seite wurde geöffnet            |    spielen des Spiels     |    Das Spiel verläuft fehlerfrei.               |
+| 2.1  |  Der User hat einen richtigen Versuch gemacht            |  Eingabe des richtigen Versuches       |  Der Score wird automatisch aktualisiert.                 |
+| 3.1  |  Der User spielt das Spiel           |  spielen des Spiels       |  Zu den Beschreibungen werden die passenden Bilder angezeigt.                 |
+| 5.1  |  Der User hat eine Serie an richigen Versuchen gemacht            |  Eingabe von richtigen Versuchen       |   Der Highscore wird automatisch aktualisiert.                |
+| 6.1  |  Der User spielt das Spiel            |  drücken eines Buttons       |   Das Spiel reagiert passend.                |
+| 7.1  |  Der User spielt das Spiel              |  spielen des Spiels       |  Der User hat ein überwältigendes Spielerlebnis und kann kaum aufhören zu spielen.                 |
 
 ### 1.4 Diagramme
+#### PAP:
+![image](https://github.com/Goeschel18769/LA_1302/assets/111043950/e1e9c77d-7f25-4624-b333-aa63b51cd530)
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 29.11      |  Frey, Haldimann       |   Grundstruktur des Spiels programmieren           |    300 Min.           |
+| 1.B  |  29.11     | Müller          |  Projektdoku anpassen            |   60 Min.            |
+| 2.A  | 06.12      |  Haldimann         |  Programmieren des Scores            |  60 Min.             |
+| 3.A  | 06.12      |  Frey         |  erstellen der JSON-Datei            |  60 Min.             |
+| 3.B  | 06.12      |  Frey         |  Suchen und einfügen der Bilder            |   200 Min.            |
+| 3.C  | 06.12      |  Müller         |  Projektdoku anpassen            |    60 Min.           |
+| 4.A  | 29.11 |   Frey, Haldimann, Müller   |  Erstellen der ReactApp            |   60 Min.            |
+| 5.A  | 06.12      |  Haldimann         |   Programmieren des Highscores           |    60 Min.           |
+| 6.A  |  13.12     |   Haldimann         |   Programmieren der Buttons           |   200 Min.           |
+| 7.A  |  13.12     |   Müller        |   Desgin anpassen und verschönern           |    200 Min.           |
+| 7.B  | 13.12      |  Müller, Frey, Haldimann         |  Projektdoku anpassen            | 100 Min.              |
 
-Total: 
+Total: ca. 31 Arbeitspakete
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir haben uns entschieden, unsere WebApp in React zu erstellen. Dafür mussten wir unsere diesbezüglichen Kenntnisse auf den selben Stand bringen und dann gemeinsam erweitern.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |  29.11     |   Frey, Haldimann         |    300 Min.           |                   |
+| 1.B  |  29.11     |   Müller        |               |    60 Min.               |
+| 2.A  |  06.12     |   Haldimann          |   60 Min.           |               |
+| 3.A  | 06.12      |   Frey         |   60 Min.           |               |
+| 3.B  |  06.12     |   Frey         |     200 Min.          |               |
+| 3.C  | 06.12      |   Müller        |     60 Min.          |               |
+| 4.A  | 29.11      |   Frey, Haldimann, Müller        |   60 Min.            |               |
+| 5.A  |  06.12     |  Haldimann         |   60 Min.            |               |
+| 6.A  |  13.12     |   Haldimann        |    200 Min.           |               |
+| 7.A  |  13.12     |   Müller        |    200 Min.           |               |
+| 7.B  |  13.12     |   Müller, Frey, Haldimann        |     100 Min.          |               |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
+
+
 
 ## 5 Kontrollieren
 
