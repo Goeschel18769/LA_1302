@@ -77,17 +77,17 @@ Wir haben uns entschieden, unsere WebApp in React zu erstellen. Dafür mussten w
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |  29.11     |   Frey, Haldimann         |    300 Min.           |                   |
-| 1.B  |  29.11     |   Müller        |               |    60 Min.               |
-| 2.A  |  06.12     |   Haldimann          |   60 Min.           |               |
-| 3.A  | 06.12      |   Frey         |   60 Min.           |               |
-| 3.B  |  06.12     |   Frey         |     200 Min.          |               |
-| 3.C  | 06.12      |   Müller        |     60 Min.          |               |
-| 4.A  | 29.11      |   Frey, Haldimann, Müller        |   60 Min.            |               |
-| 5.A  |  06.12     |  Haldimann         |   60 Min.            |               |
-| 6.A  |  13.12     |   Haldimann        |    200 Min.           |               |
-| 7.A  |  13.12     |   Müller        |    200 Min.           |               |
-| 7.B  |  13.12     |   Müller, Frey, Haldimann        |     100 Min.          |               |
+| 1.A  |  29.11     |   Frey, Haldimann         |    300 Min.           |    330 Min.               |
+| 1.B  |  29.11     |   Müller        |  60 Min.             |        60 Min.           |
+| 2.A  |  06.12     |   Haldimann          |   60 Min.           |       70 Min.        |
+| 3.A  | 06.12      |   Frey         |   60 Min.           |    50 Min.           |
+| 3.B  |  06.12     |   Frey         |     200 Min.          |   180 Min.            |
+| 3.C  | 06.12      |   Müller        |     60 Min.          |     60 Min.          |
+| 4.A  | 29.11      |   Frey, Haldimann, Müller        |   60 Min.            |     100 Min.          |
+| 5.A  |  06.12     |  Haldimann         |   60 Min.            |         70 Min.     |
+| 6.A  |  13.12     |   Haldimann        |    200 Min.           |      210 Min.         |
+| 7.A  |  13.12     |   Müller        |    200 Min.           |      100 Min.         |
+| 7.B  |  13.12     |   Müller, Frey, Haldimann        |     100 Min.          |      50 Min.         |
 
 
 
