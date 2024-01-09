@@ -97,11 +97,18 @@ Wir haben uns entschieden, unsere WebApp in React zu erstellen. Dafür mussten w
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 20.12      |    Check      |   Ben Müller     |
+| 1.2  | 20.12       |  Check       |  Ben Müller      |
+| 2.1  |  20.12      |  Check        |  Ben Müller      |
+| 3.1  |  20.12      |   Check       |  Ben Müller      |
+| 3.2  | 20.12       |   Check       |   Ben Müller     |
+| 3.3  | 20.12       |   Check       |  Ben Müller      |
+|  4.1 | 20.12       |   Check       |   Ben Müller     |
+|  5.1 | 20.12       |   Check       |   Ben Müller     |
+|  6.1 | 20.12       |    Check      |   Ben Müller     |
+|  7.1 |  20.12      |    Check      |   Ben Müller     |
+|  7.2 | 20.12       |   Check       |   Ben Müller     |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-## 6 Auswerten
+Die Testergebnisse sind sehr zufriedenstellend. Alle Usersstories bzw. Testfälle wurden erfolgreich getestet und erfüllt. 
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
